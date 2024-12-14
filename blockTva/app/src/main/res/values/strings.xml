@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">blockTva</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label" translatable="false">First Fragment</string>
+    <string name="second_fragment_label" translatable="false">Second Fragment</string>
+    <string name="next" translatable="false">Next</string>
+    <string name="previous" translatable="false">Previous</string>
+
+
+    <string name="pick_text">Pick an animal:</string>
+    <string name="Dog">Dog</string>
+    <string name="Cat">Cat</string>
+    <string name="Pig">Pig</string>
+    <string name="Horse">Horse</string>
+    <string name="toastMessage">ok</string>
+    <string-array name="animalsArray">
+        <item>@string/Dog</item>
+        <item>@string/Cat</item>
+        <item>@string/Pig</item>
+        <item>@string/Horse</item>
+    </string-array>
+</resources>

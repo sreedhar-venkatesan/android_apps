@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">blockTva</string>
+    <string name="pick_text">ஒரு விலங்கு தேர்வு</string>
+    <string name="Dog">நாய்</string>
+    <string name="Cat">பூனை</string>
+    <string name="Pig">"பன்றி "</string>
+    <string name="Horse">குதிரை</string>
+    <string name="toastMessage">சரி</string>
+</resources>

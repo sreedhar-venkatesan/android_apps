@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="@color/gray_dark"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/waveform_layout"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        tools:ignore="MissingConstraints">
+
+        <vcc.asxh.multiplesoundfiles.AudioTimelineView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:id="@+id/audioTimelineView1"/>
+        <TextView
+            android:id="@+id/tv1_position"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="30dp"/>
+        <vcc.asxh.multiplesoundfiles.AudioTimelineView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:id="@+id/audioTimelineView2"/>
+        <TextView
+            android:id="@+id/tv2_position"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="30dp"/>
+        <vcc.asxh.multiplesoundfiles.AudioTimelineView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:id="@+id/audioTimelineView3"/>
+        <TextView
+            android:id="@+id/tv3_position"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="30dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/start_button"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="start"
+                android:textSize="30sp"
+                android:padding="10dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="@color/black"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/stop_button"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="30sp"
+                android:text="stop"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/black"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">blockTva</string>
+    <string name="pick_text">Elige un animal</string>
+    <string name="Dog">perra</string>
+    <string name="Cat">gata</string>
+    <string name="Pig">cerdo</string>
+    <string name="Horse">Caballo</string>
+    <string name="toastMessage">bueno</string>
+</resources>
